@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		09A145882068605A005FFFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A145872068605A005FFFE9 /* AppDelegate.swift */; };
-		09A1458A2068605A005FFFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A145892068605A005FFFE9 /* ViewController.swift */; };
 		09A1458D2068605A005FFFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A1458B2068605A005FFFE9 /* Main.storyboard */; };
 		09A1458F2068605A005FFFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A1458E2068605A005FFFE9 /* Assets.xcassets */; };
 		09A145922068605A005FFFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A145902068605A005FFFE9 /* LaunchScreen.storyboard */; };
 		09A1459D2068605A005FFFE9 /* Tinder_mockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1459C2068605A005FFFE9 /* Tinder_mockTests.swift */; };
 		09A145A82068605A005FFFE9 /* Tinder_mockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A145A72068605A005FFFE9 /* Tinder_mockUITests.swift */; };
+		09A145B62068618A005FFFE9 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A145B52068618A005FFFE9 /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		09A145842068605A005FFFE9 /* Tinder-mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder-mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A145872068605A005FFFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09A145892068605A005FFFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09A1458C2068605A005FFFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09A1458E2068605A005FFFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A145912068605A005FFFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		09A145A32068605A005FFFE9 /* Tinder-mockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder-mockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A145A72068605A005FFFE9 /* Tinder_mockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_mockUITests.swift; sourceTree = "<group>"; };
 		09A145A92068605A005FFFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A145B52068618A005FFFE9 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				09A145872068605A005FFFE9 /* AppDelegate.swift */,
-				09A145892068605A005FFFE9 /* ViewController.swift */,
 				09A1458B2068605A005FFFE9 /* Main.storyboard */,
 				09A1458E2068605A005FFFE9 /* Assets.xcassets */,
 				09A145902068605A005FFFE9 /* LaunchScreen.storyboard */,
 				09A145932068605A005FFFE9 /* Info.plist */,
+				09A145B52068618A005FFFE9 /* CardsViewController.swift */,
 			);
 			path = "Tinder-mock";
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A1458A2068605A005FFFE9 /* ViewController.swift in Sources */,
+				09A145B62068618A005FFFE9 /* CardsViewController.swift in Sources */,
 				09A145882068605A005FFFE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
